@@ -352,7 +352,7 @@ img {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin-bottom: 100px; }
+  margin-bottom: 75px; }
   .section-heading img {
     margin-bottom: 10px; }
   .section-heading h2 {
@@ -367,7 +367,7 @@ img {
         font-size: 24px; } }
   .section-heading p {
     color: #947054;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
     font-style: italic; }
 
@@ -1651,7 +1651,7 @@ img {
 
 /* :: 21.0 Contact Area CSS */
 .contact-heading {
-  margin-bottom: 90px; }
+  margin-bottom: 50px; }
   .contact-heading h6 {
     border-bottom: 2px solid #947054;
     display: inline-block;
