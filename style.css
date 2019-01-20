@@ -352,7 +352,7 @@ img {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin-bottom: 75px; }
+  margin-bottom: 50px; }
   .section-heading img {
     margin-bottom: 10px; }
   .section-heading h2 {
@@ -881,7 +881,6 @@ img {
       margin-left: 5px;
       color: #838383; }
     .single-featured-property .property-content .property-meta-data img {
-      margin-right: 10px;
       display: inline-block !important;
       width: auto !important; }
       @media only screen and (max-width: 767px) {
@@ -1790,4 +1789,11 @@ img {
   margin-bottom: 0;
   color: #7d7d7d; }
 
+#about-desc {
+  font-size: 16px;
+}
+
+#about-subtitle {
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
