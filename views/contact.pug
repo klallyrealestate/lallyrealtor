@@ -1,0 +1,167 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='description' content='Karen Lally Real Estate Contact Page, provided to you by Karen Lally Real Estate.')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  // The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags
+  link(rel='canonical' href='http://lallyrealtor.com/contact.html')
+  meta(property='og:title' content='Karen Lally Real Esate | Contact')
+  meta(property='”og:url”' content='”http://lallyrealtor.com/contact”')
+  meta(property='og:site_name' content='Karen Lally Real Esate')
+  meta(property='og:type' content='website')
+  meta(property='og:image' content='url(img/bg-img/contact-bg.jpeg)')
+  // Title
+  title Karen Lally Real Estate | Contact
+  // Favicon
+  link(rel='icon' href='img/core-img/favicon.ico')
+  // Style CSS
+  link(rel='stylesheet' href='css/style.css')
+// Preloader
+#preloader
+  .south-load
+// ##### Header Area Start #####
+header.header-area
+  // Top Header Area
+  .top-header-area
+    .h-100.d-md-flex.justify-content-between.align-items-center
+      .email-address
+        a(href='mailto:karenlally@remax.com') karenlally@remax.com
+      .phone-number.d-flex
+        .icon
+          img(src='img/icons/phone-call.png' alt='phone number')
+        .number
+          a(href='tel:778-321-4750') 778-321-4750
+  // Main Header Area
+  #stickyHeader.main-header-area
+    .classy-nav-container.breakpoint-off
+      // Classy Menu
+      nav#southNav.classy-navbar.justify-content-between
+        // Logo
+        a.nav-brand(href='/')
+          img(src='img/core-img/logo1.png' alt='logo')
+        // Navbar Toggler
+        .classy-navbar-toggler
+          span.navbarToggler
+            span
+            span
+            span
+        // Menu
+        .classy-menu
+          // close btn
+          .classycloseIcon
+            .cross-wrap
+              span.top
+              span.bottom
+          // Nav Start
+          .classynav
+            ul
+              li
+                a(href='/') Home
+              li
+                a(href='/about') About
+              li
+                a(href='/contact') Contact
+          // Nav End
+// ##### Header Area End #####
+// ##### Breadcumb Area Start #####
+section.breadcumb-area.bg-img(style='background-image: url(img/bg-img/contact-bg.jpeg);')
+  .container.h-100
+    .row.h-100.align-items-center
+      .col-12
+        .breadcumb-content
+          h3.breadcumb-title Contact
+// ##### Breadcumb Area End #####
+section.south-contact-area.section-padding-100
+  .container
+    .row
+      .col-12
+        .section-heading.text-left.wow.fadeInUp
+          h2 Contact info
+          p
+            | Please contact me directly if you have any questions about the Vancouver, BC real estate
+            | market, or buying or selling a home in Vancouver, BC.
+    .row
+      .col-12.col-lg-4
+        .content-sidebar
+          // Address
+          .address
+            h6
+              img(src='img/icons/phone-call.png' alt='phone number')
+              |  778-321-4750
+            h6
+              img(src='img/icons/envelope.png' alt='email')
+              |  karenlally@remax.com
+            h6
+              img(src='img/icons/location.png' alt='location')
+              |  #102 2806 Kingsway, V5R
+              |                                 5T5
+              br
+              | Vancouver, BC
+      // Contact Form Area
+      .col-12.col-lg-8
+        .contact-form
+          form(action='#' method='post')
+            .form-group
+              input#contact-name.form-control(type='text' name='text' placeholder='Your Name')
+            .form-group
+              input#contact-number.form-control(type='number' name='number' placeholder='Your Phone')
+            .form-group
+              input#contact-email.form-control(type='email' name='email' placeholder='Your Email')
+            .form-group
+              textarea#message.form-control(name='message' cols='30' rows='10' placeholder='Your Message')
+            button.btn.south-btn(type='submit') Send Message
+// ##### Footer Area Start #####
+footer.footer-area.section-padding-100-0.bg-img.gradient-background-overlay
+  // Main Footer Area
+  .main-footer-area
+    .container
+      .row
+        // Single Footer Widget
+        .col-12.col-sm-6.col-xl-6
+          .footer-widget-area.mb-100
+            // Widget Title
+            .widget-title
+              h6 About
+            .footer-logo.my-4
+              img(src='img/core-img/logo1.png' alt='logo')
+            p
+              | Karen Lally is part of Vancouver&apos;s premier real estate team, REMAX City Realty, known for
+              | outstanding agents and service.
+        // Single Footer Widget
+        .col-12.col-sm-6.col-xl-6
+          .footer-widget-area.mb-100
+            // Widget Title
+            .widget-title
+              h6 Contact
+            // Address
+            .address
+              h6
+                img(src='img/icons/phone-call.png' alt='phone number')
+                |  778-321-4750
+              h6
+                img(src='img/icons/envelope.png' alt='email')
+                |  karenlally@remax.com
+              h6
+                img(src='img/icons/location.png' alt='logo')
+                |  #102 2806 Kingsway, Vancouver, BC V5R
+                |                                     5T5
+  // Copywrite Text
+  .copywrite-text.d-flex.align-items-center.justify-content-center
+    | Copyright &copy;
+    script.
+      document.write(new Date().getFullYear());
+    |  Karen Lally
+// ##### Footer Area End #####
+// jQuery (Necessary for All JavaScript Plugins)
+script(src='js/jquery/jquery-2.2.4.min.js')
+// Popper js
+script(src='js/popper.min.js')
+// Bootstrap js
+script(src='js/bootstrap.min.js')
+// Plugins js
+script(src='js/plugins.min.js')
+script(src='js/classy-nav.min.js')
+script(src='js/jquery-ui.min.js')
+// Active js
+script(src='js/active.min.js')

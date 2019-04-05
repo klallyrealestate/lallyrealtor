@@ -1,0 +1,36 @@
+{
+  "name": "lallyrealtor",
+  "version": "1.0.0",
+  "description": "Karen Lally Real Estate Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krahal/lallyrealtor.git"
+  },
+  "keywords": [
+    "karen",
+    "lally",
+    "real",
+    "estate"
+  ],
+  "author": "Karn Rahal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krahal/lallyrealtor/issues"
+  },
+  "homepage": "https://github.com/krahal/lallyrealtor#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
