@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/krahal/lallyrealtor#readme",
   "dependencies": {
+    "aws-sdk": "^2.437.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "nodemailer": "^6.0.0",
     "path": "^0.12.7",
     "pug": "^2.0.3"
   },
