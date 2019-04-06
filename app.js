@@ -22,5 +22,5 @@ app.set('view engine', 'pug');
 app.use('/', indexRouter);
 
 // Start Express server
-const port = 80;
+const port = 8080;
 app.listen(port, () => console.log('Started server.'));
