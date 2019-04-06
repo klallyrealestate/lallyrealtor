@@ -33,8 +33,8 @@ exports.sendMessage = (req, res) => {
   } = req.body;
 
   transporter.sendMail({
-    from: 'rahalkarn@gmail.com',
-    to: 'karnrahal@live.com',
+    from: 'contact@lallyrealtor.com',
+    to: 'karenlally@remax.com',
     subject: `Contact Form Message - ${name}`,
     text: `Name: ${name}\nEmail: ${email}\nPhone Number: ${number}\n\n${message}`,
   }, () => {
