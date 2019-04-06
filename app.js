@@ -6,6 +6,7 @@ const indexRouter = require('./routers/indexRouter');
 
 // Initialization
 const app = express();
+app.disable('x-powered-by');
 app.use(bodyParser.json());
 app.use(
   bodyParser.urlencoded({
