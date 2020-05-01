@@ -26,23 +26,6 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("user_gCJlw0I1SHgLBhTR1M5Au");
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                emailjs.sendForm('contact_service', 'contact_form', this);
-            });
-        }
-    </script>
-
 </head>
 
 <body>
@@ -127,50 +110,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-heading text-left wow fadeInUp">
-                        <h2>Contact info</h2>
-                        <p>Please contact me directly if you have any questions about the Vancouver, BC real estate
-                            market, or buying or selling a home in Vancouver, BC.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="content-sidebar">
-                        <!-- Address -->
-                        <div class="address">
-                            <h6><img src="img/icons/phone-call.png" alt="phone number"> 778-321-4750</h6>
-                            <h6><img src="img/icons/envelope.png" alt="email"> karenlally@remax.net</h6>
-                            <h6><img src="img/icons/location.png" alt="location"> #201 7238 137 St.
-                                V3W 1A4<br>Surrey, BC
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Contact Form Area -->
-                <div class="col-12 col-lg-8">
-                    <div class="contact-form">
-                        <form id="contact-form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="user_name" id="contact-name"
-                                    placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="number" class="form-control" name="user_number" id="contact-number"
-                                    placeholder="Your Phone">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="user_email" id="contact-email"
-                                    placeholder="Your Email">
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" id="message" cols="30" rows="10"
-                                    placeholder="Your Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn south-btn" onclick="window.location.href = 'https://lallyrealtor.com/thankyou.html'">Send Message</button>
-                        </form>
+                    <div class="section-heading wow fadeInUp">
+                        <h2>Thank you for contacting me!</h2>
+                        <br />
+                        <p>You will recieve an email within 1 business day. Can't wait that long? Give me a call.</p>
+                        <br />
+                        <h5>778-321-4750</h5>
                     </div>
                 </div>
             </div>
